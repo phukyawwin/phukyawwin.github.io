@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+<title>Phu Kyaw Win | Software Developer</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Phu Kyaw Win</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/phukyawwin" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/phookyaw-win-41ab43171/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:example@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Phu Kyaw 👋</h2>
+        <p> I am a software developer from Myanmar.Let me introduce you about myself.
+          Firstly,my name is Ms.Phu Kyaw Win and I'm <span id="age"></span>.
+          I  never hesitate to learn new things and new skills.
+          And I'm a fast learner and hardworking person.
+          I'm also interested in teamwork.
+          Maybe I am not perfect but I enjoy to resolve the issues.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#Experience">
+            <i class="fa-solid fa-pen"></i>
+            <span>Experience</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/my_image.jpg" alt="phu kyaw headshot"> 
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Passionate Backend Developer with extensive experience in Java and SQL. Skilled in designing scalable systems, optimizing database queries, and using Java. Known for strong analytical skills and a collaborative approach to delivering high-quality backend solutions.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/java.png" alt="java logo">
+          <span>JAVA</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/c.png" alt="c# logo">
+          <span>C#</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/angular.png" alt="Angular logo">
+          <span>ANGULAR</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/sql.png" alt="SQL logo">
+          <span>SQL</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/git.png" alt="git logo">
+          <span>GIT</span>
+        </div>
+      </div>
+    </section>
+     <!-- SECTION 3: Experience -->
+      <section id="Experience" class="experience-section">
+        <h2>Working Experience</h2>
+      
+        <div class="experience-group">
+          <div class="job-details">
+            <p class="job-title">Developer</p>
+            <p class="company-name">Partner Associates International Co. Ltd</p>
+            <p class="job-dates">Nov 2023 – Aug 2024</p>
+          </div>
+          <div class="job-description">
+            <p>I developed scalable microservices with C# and ASP.NET, using Angular for the front end. I integrated Hangfire, RabbitMQ, and worker services for improved efficiency, and optimized MSSQL databases. I also led a team of junior developers and reported project progress to management.</p>
+          </div>
+        </div>
+      
+        <div class="experience-group">
+          <div class="job-details">
+            <p class="job-title">Developer</p>
+            <p class="company-name">Myanmar Information Technology</p>
+            <p class="job-dates">Nov 2019 – Nov 2023</p>
+          </div>
+          <div class="job-description">
+            <p>Experienced Backend Developer skilled in Java Servlet, RESTful APIs, and Angular, with a strong background in MSSQL, PostgreSQL, and Oracle databases. Adept at developing and maintaining enterprise-level applications, enhancing existing systems, and ensuring data security. Proven ability to provide technical guidance, collaborate with cross-functional teams, and deliver high-quality solutions on time.</p>
+          </div>
+        </div>
+      </section>
+      
+   
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+         </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
